@@ -90,7 +90,7 @@ label{
     font-weight: 600;
     letter-spacing: .2rem;
     font-size: .6rem;
-    
+    padding-bottom: 20px;
 }
 input:not([type="submit"]){
     width: 70%;
@@ -113,6 +113,19 @@ input:not([type="submit"]):focus{
    outline: none;
      border-bottom: 2px solid red;;
     box-shadow:  0px 5px 5px rgba(255, 4, 4, 0.767) ;
+}
+input:not([type="submit"]):indeterminate{
+    outline: none;
+     border-bottom: 2px solid red;;
+    box-shadow:  0px 5px 5px rgba(255, 4, 4, 0.767);
+}
+
+input:not([type="submit"]):valid{
+    border: 2px solid white;
+
+}
+input:not([type="submit"]):invalid{
+    border: 2px solid red;
 }
 
 #summit-section{
